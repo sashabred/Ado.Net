@@ -21,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exc3", "Exc3", "{D0347D2B-B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBConnection", "DBConnection\DBConnection.csproj", "{C3998174-2E6A-42D0-97D8-A979C32B1749}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataViewExample", "Exc4\DataViewExample\DataViewExample.csproj", "{C4B5090C-2B73-4FEE-A92F-8F3B5E8205D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{C3998174-2E6A-42D0-97D8-A979C32B1749}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3998174-2E6A-42D0-97D8-A979C32B1749}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3998174-2E6A-42D0-97D8-A979C32B1749}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4B5090C-2B73-4FEE-A92F-8F3B5E8205D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4B5090C-2B73-4FEE-A92F-8F3B5E8205D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4B5090C-2B73-4FEE-A92F-8F3B5E8205D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4B5090C-2B73-4FEE-A92F-8F3B5E8205D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,6 +72,7 @@ Global
 		{3B0D2432-1B96-4842-BBB9-B18BA621D4DD} = {2031FDC5-C3C1-494A-93E1-8894D7803CE1}
 		{596C8454-2A91-4F87-BC00-C82C7815FC27} = {2031FDC5-C3C1-494A-93E1-8894D7803CE1}
 		{2EA01FB7-A0A2-4506-A4A8-26CACED51536} = {2031FDC5-C3C1-494A-93E1-8894D7803CE1}
+		{C4B5090C-2B73-4FEE-A92F-8F3B5E8205D7} = {2031FDC5-C3C1-494A-93E1-8894D7803CE1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AA4CFBE8-16ED-4A2E-A1ED-6D33A6F0EAD6}
