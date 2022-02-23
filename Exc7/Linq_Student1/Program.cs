@@ -145,6 +145,7 @@ namespace Linq_Student1
                     Console.WriteLine("Student ID: {0}, Score: {1}", item.id, item.score);
                 }
             }
+
             finally
             {
                 Console.WriteLine("Press enter to close...");
