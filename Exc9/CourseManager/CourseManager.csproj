@@ -73,8 +73,14 @@
     <Compile Include="GetStudentGrades_Result.cs">
       <DependentUpon>School.tt</DependentUpon>
     </Compile>
-    <Compile Include="OfficeAssignment.cs">
+    <Compile Include="Instructor.cs">
       <DependentUpon>School.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OfficeAssginment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OfficeAssginment.Designer.cs">
+      <DependentUpon>OfficeAssginment.cs</DependentUpon>
     </Compile>
     <Compile Include="OnlineCourse.cs">
       <DependentUpon>School.tt</DependentUpon>
@@ -107,6 +113,9 @@
     </Compile>
     <EmbeddedResource Include="CourseViewer.resx">
       <DependentUpon>CourseViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OfficeAssginment.resx">
+      <DependentUpon>OfficeAssginment.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -12,12 +12,10 @@ namespace CourseManager
     using System;
     using System.Collections.Generic;
     
-    public partial class OfficeAssignment
+    public partial class Instructor : Person
     {
-        public int InstructorID { get; set; }
+        public System.DateTime HireDate { get; set; }
         public string Location { get; set; }
         public byte[] Timestamp { get; set; }
-    
-        public virtual Person Person { get; set; }
     }
 }
